@@ -11,6 +11,7 @@ h1
 	color: white;
 	text-align: left;
 	text-shadow: 2px 2px #02010a;
+	float: left;
 	/*-webkit-text-shadow:2px 2px #02010a;
 	-moz-text-shadow: 2px 2px #02010a;*/
 }
@@ -19,6 +20,7 @@ h1
 {
 	text-align: right;
 	color:white;
+	float: right;
 }
 
 #menuprincipal>a
