@@ -14,3 +14,13 @@ h1
 	/*-webkit-text-shadow:2px 2px #02010a;
 	-moz-text-shadow: 2px 2px #02010a;*/
 }
+
+#menuprincipal
+{
+	text-align: right;
+}
+
+#menuprincipal>a
+{
+	text-decoration: none;
+}
