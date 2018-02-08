@@ -10,7 +10,7 @@ h1
 {
 	color: white;
 	text-align: left;
-	text-shadow: 2px 2px #02010a;
-	-webkit-text-shadow:2px 2px #02010a;
-	-moz-text-shadow: 2px 2px #02010a;
+	text-shadow: 2px 2px 2px #02010a;
+	/*-webkit-text-shadow:2px 2px #02010a;
+	-moz-text-shadow: 2px 2px #02010a;*/
 }
