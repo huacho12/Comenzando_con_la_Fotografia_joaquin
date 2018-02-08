@@ -1,0 +1,22 @@
+@media all and (max-width: 500px) {
+	h1 {
+		width: 100%;
+		order: 2;
+	}
+
+	#menuprincipal {
+		width: 100%;
+		order: 1;
+	}
+	
+}
+
+@media all and (max-width: 800px) and (min-width: 500px) {
+	.h1 {
+		width: 30%;
+	}
+	#menuprincipal {
+		width: 70%;
+	}
+	
+}
