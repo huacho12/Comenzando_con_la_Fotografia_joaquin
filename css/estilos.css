@@ -1,4 +1,11 @@
-header
+.contenedor
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.cabecera
 {
 	background-color: #5b7989;
 	border-radius: 10px 10px 0px 0px;
@@ -29,3 +36,4 @@ h1
 {
 	text-decoration: none;
 }
+
