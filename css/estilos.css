@@ -39,3 +39,41 @@
 		text-decoration:none;
 		color:white;
 	}
+	
+	/*AGREGO EL MEDIA QUERY PARA EL DESKTOP*/
+	@media ( max-width:900px)
+	{
+		
+				.contenido 
+		{
+			margin-left:auto;
+			margin-right:auto;
+			padding: 0;
+			width: 100%;
+		}
+		
+		header>h1
+		{
+			color: white;
+			text-align: center;
+			text-shadow: 2px 2px #02010a;
+		}
+			
+		header > p
+		{
+			text-align: center;
+			color:white;
+		}
+	}
+	
+	/*AGREGO EL MEDIA QUERY PARA CUANDO NO SEA DESKTOP*/
+	@media (min-width: 900px)
+	{
+		.contenido 
+		{
+			margin-left:auto;
+			margin-right:auto;
+			padding: 0;
+			width: 900px;
+		}
+	}
