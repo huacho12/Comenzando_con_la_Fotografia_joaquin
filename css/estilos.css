@@ -40,6 +40,18 @@
 		color:white;
 	}
 	
+	#imgPrin
+	{
+		background:#82c3a6;
+	}
+	
+	#imgSec
+	{
+		background:#d5c75f;
+		border:1px;
+	}
+	
+	
 	/*AGREGO EL MEDIA QUERY PARA EL DESKTOP*/
 	@media ( max-width:900px)
 	{
