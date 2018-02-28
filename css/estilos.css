@@ -40,7 +40,7 @@
 		flex-wrap:wrap;
 	}
 	
-	header>h1
+	header h1
 	{
 		color: white;
 		text-align: left;
@@ -48,12 +48,12 @@
 		line-height:50%;
 	}
 	
-	header > nav
+	header nav
 	{
 		text-align: right;
 		color:white;
 	}
-	header > nav > a
+	header nav a
 	{
 		text-decoration:none;
 		color:white;
