@@ -4,13 +4,6 @@
 		background-color:#000;
 	}
 	
-	*
-	{
-		margin:0px;
-		padding:0px;
-		box-sizing:border-box;
-	}
-	
 	.contenido 
 	{
 		margin-left:auto;
@@ -19,8 +12,10 @@
 		width: 900px;
 		/*FLEX*/
 		display:flex;
-		flex-direction:row;
-		flex-wrap:wrap;				
+		flex-flow: row wrap;
+		display: -webkit-flex;
+		-webkit-flex-flow: row wrap;
+
 	}
 
 	header
@@ -33,27 +28,30 @@
 		padding-left:10px;
 		padding-right:10px;		
 		/*FLEX*/
-		display:flex;
 		justify-content:space-between;
 		align-items:center;
-		flex-direction: row;
-		flex-wrap:wrap;
+
+		display:flex;
+		flex-flow: row wrap;
+		display: -webkit-flex;
+		-webkit-flex-flow: row wrap;
+		
 	}
 	
-	header #elHeader h1
+	header > #elHeader > h1
 	{
 		color: white;
 		text-align: left;
 		text-shadow: 2px 2px #02010a;
-		line-height:50%;
+		/*line-height:50%;*/
 	}
 	
-	header nav
+	header > nav
 	{
 		text-align: right;
 		color:white;
 	}
-	header nav a
+	header > nav > a
 	{
 		text-decoration:none;
 		color:white;
