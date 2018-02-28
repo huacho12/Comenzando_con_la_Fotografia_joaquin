@@ -4,22 +4,40 @@
 		background-color:#000;
 	}
 	
+	*
+	{
+		margin:0px;
+		padding:0px;
+		box-sizing:border-box;
+	}
+	
 	.contenido 
 	{
 		margin-left:auto;
 		margin-right:auto;
 		padding: 0;
 		width: 900px;
+		/*FLEX*/
+		display:flex;
+		flex-direction:row;
+		flex-wrap:wrap;				
 	}
 
 	header
 	{
+		width:100%;
 		background-color: #5b7989;
 		border-radius: 10px 10px 0px 0px;
 		-moz-border-radius:10px 10px 0px 0px;
 		-webkit-border-radius:10px 10px 0px 0px;
 		padding-left:10px;
-		padding-right:10px;
+		padding-right:10px;		
+		/*FLEX*/
+		display:flex;
+		justify-content:space-between;
+		align-items:center;
+		flex-direction: row;
+		flex-wrap:wrap;
 	}
 	
 	header>h1
@@ -27,14 +45,15 @@
 		color: white;
 		text-align: left;
 		text-shadow: 2px 2px #02010a;
+		line-height:50%;
 	}
 	
-	header > p
+	header > nav
 	{
 		text-align: right;
 		color:white;
 	}
-	header > p > a
+	header > nav > a
 	{
 		text-decoration:none;
 		color:white;
