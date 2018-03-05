@@ -48,7 +48,7 @@
 	
 	header > #menu
 	{
-		text-align: right;
+		text-align: center;
 		color:white;
 	}
 
@@ -97,7 +97,8 @@
 
 		header > #menu
 		{
-			vertical-align: middle;
+			text-align: center;
+			width: 100%;
 		}
 	}
 	
