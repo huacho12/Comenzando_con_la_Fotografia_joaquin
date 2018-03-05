@@ -46,12 +46,13 @@
 		/*line-height:50%;*/
 	}
 	
-	header > nav
+	header > #menu
 	{
 		text-align: right;
 		color:white;
 	}
-	header > nav > a
+
+	header > #menu > a
 	{
 		text-decoration:none;
 		color:white;
@@ -70,7 +71,7 @@
 	
 	
 	/*AGREGO EL MEDIA QUERY PARA EL DESKTOP*/
-	@media ( max-width:900px)
+	@media (max-width:900px)
 	{
 		
 				.contenido 
@@ -81,21 +82,26 @@
 			width: 100%;
 		}
 		
-		header>h1
+		header > #elHeader > h1
 		{
 			color: white;
 			text-align: center;
 			text-shadow: 2px 2px #02010a;
 		}
-			
-		header > p
+		
+		header > #menu > a
 		{
-			text-align: center;
+			text-decoration:none;
 			color:white;
+		}
+
+		header > #menu
+		{
+			vertical-align: middle;
 		}
 	}
 	
-	/*AGREGO EL MEDIA QUERY PARA CUANDO NO SEA DESKTOP*/
+	/*AGREGO EL MEDIA QUERY PARA CUANDO SEA moviles
 	@media (min-width: 900px)
 	{
 		.contenido 
@@ -103,6 +109,6 @@
 			margin-left:auto;
 			margin-right:auto;
 			padding: 0;
-			width: 900px;
+			width: 100%;
 		}
-	}
+	}*/
