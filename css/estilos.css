@@ -60,13 +60,27 @@
 	
 	#imgPrin
 	{
+		/*FLEX*/
+		display:flex;
+		display: -webkit-flex;
+		justify-content: center;
+		align-items:center;
+
 		background:#82c3a6;
+		width: 100%;
 	}
 	
+	#imgPrin img
+	{
+		height: 90%;
+		width: 90%;
+	}
+
 	#imgSec
 	{
 		background:#d5c75f;
 		border:1px;
+		width: 100%;
 	}
 	
 	
@@ -74,7 +88,7 @@
 	@media (max-width:900px)
 	{
 		
-				.contenido 
+		.contenido 
 		{
 			margin-left:auto;
 			margin-right:auto;
@@ -96,10 +110,8 @@
 		}
 
 		header > #elHeader
-		{					
-			text-align: center;
+		{								
 			width: 100%;
-
 		}
 
 		header > #menu
