@@ -95,6 +95,13 @@
 			color:white;
 		}
 
+		header > #elHeader
+		{					
+			text-align: center;
+			width: 100%;
+
+		}
+
 		header > #menu
 		{
 			text-align: center;
