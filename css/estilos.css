@@ -93,25 +93,25 @@
 		width: 100%;
 
 		/*FLEX*/
+		display:flex;
+		display: -webkit-flex;
+		/*flex-flow: row wrap;
+		-webkit-flex-flow: row wrap;*/
 		justify-content:space-around;
 		align-items:center;
 
-		display:flex;
-		flex-flow: row wrap;
-		display: -webkit-flex;
-		-webkit-flex-flow: row wrap;
 	}
 	
 	#imgSec div
 	{
 		height: 350px;
-		width: 400px;
+		width: 500px;
 		text-align: center;
 	}
 	#imgSec div img
 	{
-		height: 100%;
-		width: 100%;
+		height: 300px;
+		width: 500px;
 	}
 	
 	/*AGREGO EL MEDIA QUERY PARA EL DESKTOP*/
