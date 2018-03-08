@@ -91,27 +91,48 @@
 	{
 		background:#d5c75f;
 		width: 100%;
+		border: 1px;
 
 		/*FLEX*/
 		display:flex;
 		display: -webkit-flex;
-		/*flex-flow: row wrap;
-		-webkit-flex-flow: row wrap;*/
-		justify-content:space-around;
+		flex-flow: row wrap;
+		-webkit-flex-flow: row wrap;/**/
+		justify-content: space-around;
 		align-items:center;
 
 	}
 	
-	#imgSec div
+	#imgSec>div
 	{
 		height: 350px;
-		width: 500px;
-		text-align: center;
+		width: 400px;
+
+		/*FLEX*/
+		display:flex;
+		display: -webkit-flex;
+		flex-flow: row wrap;
+		-webkit-flex-flow: row wrap;
+		justify-content: center;
+		align-items:center;
 	}
-	#imgSec div img
+	#imgSec>div>img
 	{
 		height: 300px;
-		width: 500px;
+		width: 350px;
+	}
+
+	#imgSec >div> a
+	{
+		text-decoration:none;	
+	}
+
+	.ligas
+	{
+		width: 400px;
+		text-align: center;
+		text-decoration: none;
+		font-weight: bold;
 	}
 	
 	/*AGREGO EL MEDIA QUERY PARA EL DESKTOP*/
