@@ -159,14 +159,20 @@
 
 	footer > div
 	{
-		border:1px solid red;
-		width: 30%;
+		width: 20%;
 	}
 
-	footer > div > #redsocial
+	footer > #redsocial > div
 	{
 		width: 100%;
+		text-align: justify;
+		margin-bottom: 5px;
 	}
+
+
+
+
+
 	/*AGREGO EL MEDIA QUERY PARA EL DESKTOP*/
 	@media (max-width:900px)
 	{
