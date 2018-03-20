@@ -243,6 +243,31 @@
 		{
 			width: 90%;
 		}
+
+		#imgSec>div
+		{
+			
+			width: 95%;
+			/*margin-left: 5px;
+			margin-right: 5px;
+			width: 25%;*/
+
+			/*FLEX*/
+			display: flex;
+			display: -webkit-flex;
+			flex-flow: row wrap;
+			-webkit-flex-flow: row wrap;
+			justify-content: center;
+			align-items:center;
+		}
+		#imgSec>div>img
+		{
+			/*height: 300px;
+			width: 350px;
+			height: 300px;*/
+			width: 100%;
+		}
+
 	}
 	
 	/*AGREGO EL MEDIA QUERY PARA CUANDO SEA moviles
