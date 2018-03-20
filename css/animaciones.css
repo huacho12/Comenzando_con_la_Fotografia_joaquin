@@ -4,7 +4,7 @@
 	to{ height: 0; }
 }*/
 
-#contIMGrotation:hover
+#contIMGrotation>img:hover
 {
 	transform: rotate(10deg);
 }
