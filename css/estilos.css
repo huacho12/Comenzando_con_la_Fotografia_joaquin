@@ -109,6 +109,7 @@
 	{
 		height: 350px;
 		width: 400px;
+		/*width: 25%;*/
 
 		/*FLEX*/
 		display:flex;
@@ -120,8 +121,10 @@
 	}
 	#imgSec>div>img
 	{
-		height: 300px;
+		height: 300px;/*
 		width: 350px;
+		height: 300px;*/
+		width: 100%;
 	}
 
 	#imgSec >div> a
