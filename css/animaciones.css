@@ -1,0 +1,10 @@
+/*@-webkit-keyframes ratationIMG
+{
+	from{ transform: rotate(10deg); }
+	to{ height: 0; }
+}*/
+
+#contIMGrotation:hover
+{
+	transform: rotate(10deg);
+}
