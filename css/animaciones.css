@@ -4,7 +4,24 @@
 	to{ height: 0; }
 }*/
 
-#contIMGrotation>img:hover
+.contIMGrotation>img:hover
 {
 	transform: rotate(10deg);
+	
+	filter: drop-shadow(2px 2px 2px #82c3a6);
+	-webkit-filter: drop-shadow(2px 2px 2px,#82c3a6);
+	-moz-filter: drop-shadow(2px 2px 2px #82c3a6);
+	-ms-filter: drop-shadow(2px 2px 2px #82c3a6);
+	-o-filter: drop-shadow(2px 2px 2px #82c3a6);/**/
+}
+
+.contIMtraslation>img:hover
+{
+	transform: translate(5px,-20px);
+	
+	filter: drop-shadow(2px 2px 2px #82c3a6);
+	-webkit-filter: drop-shadow(2px 2px 2px,#82c3a6);
+	-moz-filter: drop-shadow(2px 2px 2px #82c3a6);
+	-ms-filter: drop-shadow(2px 2px 2px #82c3a6);
+	-o-filter: drop-shadow(2px 2px 2px #82c3a6);/**/
 }
