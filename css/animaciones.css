@@ -25,3 +25,32 @@
 	-ms-filter: drop-shadow(2px 2px 2px #82c3a6);
 	-o-filter: drop-shadow(2px 2px 2px #82c3a6);/**/
 }
+
+
+@-webkit-keyframes MiEntrada
+{
+	  /*0% {
+		    transform: translateY(150%)
+		  }
+	  60% {
+		    transform: translateY(-5%)
+		  }
+	  100% {
+		    transform: translateY(0%)
+		  }*/
+		  0% {
+		    margin-top:150%;
+		  }
+	  60% {
+		     margin-top:-5%;
+		  }
+	  100% {
+		     margin-top:0%;
+		  }
+
+}
+
+body
+{
+	animation: MiEntrada 1s;
+}
