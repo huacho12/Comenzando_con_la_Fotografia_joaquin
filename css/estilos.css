@@ -162,6 +162,10 @@
 		-webkit-filter: blur(10px);
 		filter: blur(10px)
 	}
+	#galeria> div:nth-child(3)
+	{
+		-webkit-filter: sepia(90%);
+	}
 
 	.ligas
 	{
