@@ -157,6 +157,12 @@
 		margin:3px;
 	}
 
+	#galeria> div:first-child
+	{
+		-webkit-filter: blur(10px);
+		filter: blur(10px)
+	}
+
 	.ligas
 	{
 		width: 400px;
