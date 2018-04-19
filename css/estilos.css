@@ -167,6 +167,12 @@
 		-webkit-filter: sepia(90%);
 	}
 
+	#galeria> div:nth-child(even)
+	{
+		-webkit-filter: grayscale(100%);
+		filter: grayscale(100%);
+	}
+
 	.ligas
 	{
 		width: 400px;
